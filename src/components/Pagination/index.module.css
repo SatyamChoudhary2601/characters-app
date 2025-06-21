@@ -1,0 +1,13 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ellipsis {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

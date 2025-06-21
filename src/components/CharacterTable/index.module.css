@@ -1,0 +1,32 @@
+.characterTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.characterTable thead {
+  background-color: #f7fafc;
+}
+
+.characterTable th,
+.characterTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.characterTable th {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4a5568;
+}
+
+.characterTable tbody tr:hover {
+  background-color: #f1f5f9;
+  cursor: pointer;
+}
+
+.characterTable img {
+  border-radius: 50%;
+}
