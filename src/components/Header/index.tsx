@@ -4,7 +4,7 @@ import styles from "./index.module.css";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <div className={styles.logoWrapper}>
+      <Link to="/" className={styles.logoWrapper}>
         <img
           src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
           className={styles.logo}
@@ -12,7 +12,7 @@ const Header = () => {
         <p>
           <span>R</span>ick & <span>M</span>orty
         </p>
-      </div>
+      </Link>
       <div className={styles.nav}>
         <Link
           to="/"
